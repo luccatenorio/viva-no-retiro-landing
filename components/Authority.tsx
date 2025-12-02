@@ -17,8 +17,8 @@ export const AuthoritySection: React.FC = () => {
             A imobiliária referência no <span className="text-brand-petrol">Retiro do Chalé.</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Há mais de 20 anos conectando famílias a imóveis de alto padrão na Serra da Moeda.
-            Especialistas no condomínio, com atendimento consultivo e transparente, garantindo
+            Há mais de 20 anos conectando famílias a imóveis de alto padrão na Serra da Moeda. 
+            Especialistas no condomínio, com atendimento consultivo e transparente, garantindo 
             que você faça o melhor negócio.
           </p>
         </div>
@@ -51,7 +51,7 @@ export const WhyRetiroSection: React.FC = () => {
   return (
     <section id="retiro" className="py-24 bg-white relative overflow-hidden">
       <div className="absolute right-0 top-0 w-1/3 h-full bg-brand-light/50 skew-x-12 translate-x-20 hidden lg:block" />
-
+      
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
@@ -60,7 +60,7 @@ export const WhyRetiroSection: React.FC = () => {
               O Refúgio Premium da <br /> Serra da Moeda
             </h2>
             <p className="text-gray-600 text-lg mb-8">
-              Se você busca uma casa que entregue espaço, natureza e exclusividade, esse é o lugar certo.
+              Se você busca uma casa que entregue espaço, natureza e exclusividade, esse é o lugar certo. 
               Viva dias tranquilos, com ar puro e uma infraestrutura completa de lazer e serviços.
             </p>
 
@@ -73,21 +73,16 @@ export const WhyRetiroSection: React.FC = () => {
               ))}
             </div>
 
-            <a
-              href="https://wa.me/553197970000"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block border-2 border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300"
-            >
+            <button className="border-2 border-brand-dark text-brand-dark hover:bg-brand-dark hover:text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-300">
               Ver opções de casas disponíveis
-            </a>
+            </button>
           </div>
 
           <div className="lg:w-1/2 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group bg-gray-100">
-              <img
-                src="https://i.ibb.co/XrWL1zyr/6a5ad1db-229e-4f7c-a89b-a43432f812bc.png"
-                alt="Vista aérea do Retiro"
+               <img 
+                src="https://i.ibb.co/XrWL1zyr/6a5ad1db-229e-4f7c-a89b-a43432f812bc.png" 
+                alt="Vista aérea do Retiro" 
                 className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
@@ -99,8 +94,8 @@ export const WhyRetiroSection: React.FC = () => {
             {/* Decorative floating card - Adjusted positioning to remove "glued" effect */}
             <div className="absolute -bottom-10 -left-10 z-20 bg-white p-5 rounded-xl shadow-2xl hidden md:block max-w-xs border border-gray-50">
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                <span className="font-bold text-brand-dark text-lg">Natureza Exuberante</span>
+                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
+                 <span className="font-bold text-brand-dark text-lg">Natureza Exuberante</span>
               </div>
               <p className="text-sm text-gray-500 leading-relaxed">Mais de 1 milhão de m² de área verde preservada.</p>
             </div>
