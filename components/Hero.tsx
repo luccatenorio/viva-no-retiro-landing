@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
               poster="https://images.unsplash.com/photo-1600596542815-e32cb5313d5b?q=80&w=1920&auto=format&fit=crop"
             >
               <source
-                src="https://res.cloudinary.com/dxx35zhn6/video/upload/v1763578297/Video_LP_-_Viva_no_Retiro_1_ma6edk.mp4"
+                src="https://ik.imagekit.io/vzmf3kaou/video-lp-viva-no-retiro-1_VB4H8Q4u.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
